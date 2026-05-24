@@ -95,9 +95,7 @@ monogatari.script ({
 
 'wait 1000',
 
-'centered "Your life inside the house."',
-
-'wait 2000',
+'centered Your life inside the house.',
 
 {
 'Input': {
@@ -126,9 +124,7 @@ name:''
 
 'u Nice to meet you, {{player.name}}.',
 
-'u Please check outside.',
-
-'u There is something waiting.'
+'u Please go outside.',
 
 {
 'Choice':{
@@ -138,11 +134,11 @@ name:''
 'Do':'jump Outside'
 },
 'Ignore':{
-'Text':'Ignore the message',
+'Text':'Ignore',
 'Do':'jump Ignore'
 }
 }
-},
+}
 
 ],
 
