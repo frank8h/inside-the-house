@@ -126,7 +126,9 @@ name:''
 
 'u Nice to meet you, {{player.name}}.',
 
-'u Please go outside.',
+'u Please check outside.',
+
+'u There is something waiting.'
 
 {
 'Choice':{
