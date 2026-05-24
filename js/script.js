@@ -85,7 +85,7 @@ monogatari.script ({
 	// The game starts here.
 	'Start': [
 
-'scene black',
+'show scene #000000',
 
 'centered 11:48 PM',
 
